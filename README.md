@@ -5,13 +5,11 @@ Homebrew formulae for [Clust](https://github.com/clust-ai/clust-cli), an agent m
 ## Install
 
 ```bash
-brew tap clust-ai/tap
-brew install clust
+brew install clust-ai/tap/clust
 ```
 
 ## Update
 
 ```bash
-brew update
-brew upgrade clust
+brew update && brew upgrade clust
 ```
