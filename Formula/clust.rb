@@ -1,24 +1,24 @@
 class Clust < Formula
   desc "Agent manager CLI for AI coding agents"
   homepage "https://github.com/clust-ai/clust-cli"
-  version "0.0.24"
+  version "0.0.25"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/clust-ai/clust-cli/releases/download/v0.0.24/clust-aarch64-apple-darwin.tar.gz"
-      sha256 "052400e1e9c1df3ddd1c8849045b647d1573a9b17eaa531d79029318a7bb8a48"
+      url "https://github.com/clust-ai/clust-cli/releases/download/v0.0.25/clust-aarch64-apple-darwin.tar.gz"
+      sha256 "5d6d75a393d68a4d731d55c9b151e4db5480028e39c61261d535bfcb8636c1b4"
     end
     on_intel do
-      url "https://github.com/clust-ai/clust-cli/releases/download/v0.0.24/clust-x86_64-apple-darwin.tar.gz"
-      sha256 "3232dc6c82b6c63ba147c97f84ff096c03ce52865e123133233228a34cf1b5c2"
+      url "https://github.com/clust-ai/clust-cli/releases/download/v0.0.25/clust-x86_64-apple-darwin.tar.gz"
+      sha256 "d18236fa0644acbfc05388e1cf63fce14944af744e460df0281d0e9855f8f292"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/clust-ai/clust-cli/releases/download/v0.0.24/clust-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "188cd19d3dc976ea515c14ef0d660cccbd1fa9bb0cfca8a68b7cac474e9206de"
+      url "https://github.com/clust-ai/clust-cli/releases/download/v0.0.25/clust-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4a14c49f0b46dd35d3254fbdfd5781c487790c2a766d7065e7b8d60f6e52aec8"
     end
   end
 
